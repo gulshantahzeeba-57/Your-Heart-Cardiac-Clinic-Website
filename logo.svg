@@ -1,0 +1,5 @@
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Your Heart logo">
+  <rect width="48" height="48" rx="12" fill="#0C4547"/>
+  <path d="M24 37 C24 37 8 27.5 8 17.8 C8 12.4 12.2 9 16.6 9 C19.7 9 22.4 10.8 24 13.6 C25.6 10.8 28.3 9 31.4 9 C35.8 9 40 12.4 40 17.8 C40 27.5 24 37 24 37 Z" fill="#1FEFF2"/>
+  <polyline points="12,19.5 17,19.5 19.5,13 23,26 26,17 28,22 31,22 34,19.5 37,19.5" fill="none" stroke="#0C4547" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
