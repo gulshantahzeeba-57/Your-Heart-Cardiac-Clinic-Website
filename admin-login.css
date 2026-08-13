@@ -14,13 +14,6 @@
   background:#FDE7E7; color:#A83A3A; border-radius: var(--radius-sm);
   padding: 10px 14px; font-size:0.85rem; margin-bottom:16px;
 }
-.admin-login-hint{
-  margin-top: 22px; background: var(--bg-alt); border-radius: var(--radius-sm);
-  padding: 12px 16px; font-size:0.8rem; color: var(--ink-soft); display:flex; flex-direction:column; gap:4px;
-}
-.admin-login-hint code{ background:#fff; border:1px solid var(--line); border-radius:6px; padding:1px 6px; font-family: var(--font-mono); font-size:0.76rem; }
-.admin-login-back{ display:block; text-align:center; margin-top:22px; font-size:0.85rem; color: var(--ink-soft); }
-.admin-login-back:hover{ color: var(--dark); }
 
 @media (max-width: 480px){
   .admin-login-card{ padding: 30px 22px; }
