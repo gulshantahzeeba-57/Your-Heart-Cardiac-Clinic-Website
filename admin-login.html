@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login — Your Heart</title>
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Sora:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="admin-login.css">
+</head>
+<body class="admin-login-body">
+
+<main class="admin-login-wrap">
+  <div class="admin-login-card">
+    <div class="admin-login-brand">
+      <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#1FEFF2"/><path d="M24 37 C24 37 8 27.5 8 17.8 C8 12.4 12.2 9 16.6 9 C19.7 9 22.4 10.8 24 13.6 C25.6 10.8 28.3 9 31.4 9 C35.8 9 40 12.4 40 17.8 C40 27.5 24 37 24 37 Z" fill="#0C4547"/><polyline points="12,19.5 17,19.5 19.5,13 23,26 26,17 28,22 31,22 34,19.5 37,19.5" fill="none" stroke="#1FEFF2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Your Heart <span class="accent">Admin</span>
+    </div>
+    <p class="admin-login-sub">Staff login — restricted access</p>
+
+    <form id="adminLoginForm">
+      <div class="form-field">
+        <label for="alUsername">Username or email</label>
+        <input id="alUsername" required placeholder="admin" autocomplete="username">
+      </div>
+      <div class="form-field">
+        <label for="alPassword">Password</label>
+        <input id="alPassword" type="password" required placeholder="••••••••" autocomplete="current-password">
+      </div>
+      <p class="admin-login-error" id="adminLoginError" hidden></p>
+      <button type="submit" class="btn btn-primary btn-block">Sign in to dashboard</button>
+    </form>
+
+    <div class="admin-login-hint">
+      <b>Demo credentials</b>
+      <span>Username: <code>admin</code> &nbsp;·&nbsp; Password: <code>admin123</code></span>
+    </div>
+
+    <a href="index.html" class="admin-login-back">← Back to Your Heart site</a>
+  </div>
+</main>
+
+<script src="data.js"></script>
+<script src="admin-login.js"></script>
+</body>
+</html>
